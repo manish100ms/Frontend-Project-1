@@ -47,22 +47,22 @@ body{
     z-index: 1;
 }
 .main-heading{
-    font-size: 70px;
+    font-size: 2.8vw;
     font-weight: 550;
 }
 .sub-text{
     color: lightgray;
     padding-top: 5%;
-    font-size: 28px;
+    font-size: 1.2vw;
     letter-spacing: 0.05vw;
     line-height: 4vh;
 }
 .bottom-text{
     padding-top: 12vh;
-    padding-right: 3vw;
+    padding-right: 3.6vw;
     float: left;
     text-align: left;
-    font-size: 2vw;
+    font-size: 1.1vw;
     letter-spacing: 0.05vw;
     line-height: 4vh;
 }
