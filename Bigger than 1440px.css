@@ -1,0 +1,150 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #0A0C1BFF;
+    height: 100%;
+    margin: 0px;
+}
+.main-box{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: 7%;
+    margin-left: 0px;
+    left: 7%;
+    width: 43%;
+    height: 70%;
+    background-color: #1C1938FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.text{
+    font-family: Arial;
+    position: absolute;
+    margin: 10%;
+    margin-left: 15%;
+    width: 70%;
+    height: 80%;
+    color: white;
+    overflow: auto;
+}
+.image, .img-back{
+    background-color: rgb(132, 3, 184);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: 7%;
+    margin-right: 0px;
+    right: 7%;
+    width: 43%;
+    height: 70%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.img-back{
+    opacity: 0.5;
+    z-index: 1;
+}
+.main-heading{
+    font-size: 70px;
+    font-weight: 550;
+}
+.sub-text{
+    color: lightgray;
+    padding-top: 5%;
+    font-size: 28px;
+    letter-spacing: 0.05vw;
+    line-height: 4vh;
+}
+.bottom-text{
+    padding-top: 12vh;
+    padding-right: 3vw;
+    float: left;
+    text-align: left;
+    font-size: 2vw;
+    letter-spacing: 0.05vw;
+    line-height: 4vh;
+}
+.special{
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+.attribution{
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 11px;
+}
+
+.attribution a{
+     color: gold;
+}
+a.attribution a:visited{
+     color: gold;
+}
+
+@media screen and (max-width: 1440px) {    
+    .main-box{
+        margin: 15%;
+        height: 60%;
+        margin-left: 0px;
+    }
+
+    .image, .img-back{
+        margin: 15%;
+        height: 60%;
+        margin-right: 0px;
+    }
+
+    .text{
+        width: 80%;
+    }
+
+    .main-heading{
+        font-size: 50px;
+    }
+
+    .bottom-text{
+        padding-top: 5vh;
+        font-size: 1.4vw;
+    }
+
+    .special{
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {    
+    .main-box{
+        margin: 20%;
+        height: 55%;
+        margin-left: 0px;
+    }
+
+    .image, .img-back{
+        margin: 20%;
+        height: 55%;
+        margin-right: 0px;
+    }
+
+    .main-heading{
+        font-size: 40px;
+    }
+
+    .sub-text{
+        font-size: 2.3vw;
+    }
+
+    .bottom-text{
+        padding-top: 6vh;
+        font-size: 1.4vw;
+        line-height: 20px;
+    }
+
+    .special{
+        font-size: 2.5vw;
+    }
+}
