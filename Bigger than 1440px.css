@@ -87,28 +87,24 @@ a.attribution a:visited{
 }
 
 @media screen and (max-width: 1024px) {    
-    .main-box{
-        margin: 20%;
-        height: 55%;
-        margin-left: 0px;
-    }
 
-    .image, .img-back{
-        margin: 20%;
-        height: 55%;
-        margin-right: 0px;
+    .text{
+        margin: 10%;
+        width: 80%;
     }
 
     .main-heading{
-        font-size: 40px;
+        font-size: 3vw;
     }
 
     .sub-text{
-        font-size: 2.3vw;
+        padding-top: 10%;
+        font-size: 1.5vw;
     }
 
     .bottom-text{
-        padding-top: 6vh;
+        padding-top: 25%;
+        padding-right: 10%;
         font-size: 1.4vw;
         line-height: 20px;
     }
