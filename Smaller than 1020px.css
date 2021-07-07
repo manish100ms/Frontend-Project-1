@@ -100,6 +100,10 @@
 }
 
 @media screen and (max-width: 425px){
+    html{
+        height: 100%;
+    }
+    
     .main-box{
         top: 30%;
         height: 60%;
