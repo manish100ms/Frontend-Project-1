@@ -86,37 +86,6 @@ a.attribution a:visited{
      color: gold;
 }
 
-/* @media screen and (max-width: 1440px) {    
-    .main-box{
-        margin: 10%;
-        height: 60%;
-        margin-left: 0px;
-    }
-
-    .image, .img-back{
-        margin: 15%;
-        height: 60%;
-        margin-right: 0px;
-    }
-
-    .text{
-        width: 80%;
-    }
-
-    .main-heading{
-        font-size: 50px;
-    }
-
-    .bottom-text{
-        padding-top: 5vh;
-        font-size: 1.4vw;
-    }
-
-    .special{
-        font-size: 2.5vw;
-    }
-} */
-
 @media screen and (max-width: 1024px) {    
     .main-box{
         margin: 20%;
