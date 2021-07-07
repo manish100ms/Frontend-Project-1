@@ -115,7 +115,7 @@
     }
 
     .bottom-text{
-        float: right;
+        float: none;
         padding-top: 7vh;
         padding-right: 2vw;
         padding-left: 2vw;
