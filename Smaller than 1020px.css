@@ -26,9 +26,10 @@
 
     .text{
         font-family: Arial;
-        position: absolute;
         margin: 10%;
+        position: absolute;
         width: 80%;
+        height: 90%;
         color: white;
         overflow: auto;
     }
@@ -50,7 +51,7 @@
     }
 
     .main-heading{
-        font-size: 6vw;
+        font-size: 7vw;
         font-weight: 550;
         text-align: center;
     }
